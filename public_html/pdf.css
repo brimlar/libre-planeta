@@ -1,0 +1,145 @@
+/* CSS FILE */
+
+/* FontinSans -- A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+
+@font-face {
+	font-family: 'Fontin';
+	/*src: url('/fonts/Fontin_Sans_R_45b.eot');*/
+	/*src: local('☺'), url('fonts/Fontin_Sans_R_45b.woff') format('woff'), url("fonts/Fontin_Sans_R_45b.otf") format("opentype"),*/url('fonts/Fontin_Sans_R_45b.ttf') format('truetype');/* url('fonts/Fontin_Sans_R_45b.svg#webfontMtyYBmd7') format('svg');*/
+}
+
+@font-face {
+	font-family: 'FontinSansBold';
+	/*src: url('fonts/Fontin_Sans_B_45b.eot');*/
+	src: local('☺'), url('fonts/Fontin_Sans_B_45b.woff') format('woff'), url("fonts/Fontin_Sans_B_45b.otf") format("opentype"), url('fonts/Fontin_Sans_B_45b.ttf') format('truetype'), url('fonts/Fontin_Sans_B_45b.svg#webfontKKm9e8l5') format('svg');
+}
+
+@font-face {
+	font-family: 'FontinSC';
+	/*src: url('fonts/Fontin_Sans_SC_45b.eot');*/
+	/*src: local('☺'), url('fonts/Fontin_Sans_SC_45b.woff') format('woff'),*/ 
+	src: url("fonts/Fontin_Sans_SC_45b.otf") format("opentype"); 
+	/*url('fonts/Fontin_Sans_SC_45b.ttf') format('truetype'); /*url('fonts/Fontin_Sans_SC_45b.svg#webfontomi5QFvC') format('svg');*/
+}
+
+body { width: auto; text-align: center; color: #000; background: #fff; margin: 0px; font-family: arial,helvetica,liberation sans; font-size: normal; }
+a { outline: none; }
+
+.frame { 
+position: relative; 
+width: 780px; 
+background: #fff;
+height: auto; 
+margin: auto;
+}
+
+.headerText {
+position: relative;
+padding: 2px;
+padding-top: 4px;
+padding-bottom: 4px;
+height: auto;
+margin-left: 24px;
+margin-right: 24px;
+text-align: right;
+}
+
+.spacer { position: relative; clear: both; margin-top: 4px; margin-bottom: 4px; display: block; width: auto; padding-top: 4px; padding-bottom: 4px; }
+
+.headerText a { color: /*#989985*/#727365; text-decoration: none; }
+.headerText a:hover { color: #d7d5bf; text-decoration: underline; }
+.headerText a.cornerbanner { position: relative; top: -1px; left: -1px; text-decoration: none; }
+.headerText a.cornerbanner:hover { text-decoration: underline; }
+
+.headerBox {
+position: relative;
+height: 76px;
+border: 1px solid #6f6b47;
+border-right: 1px solid #727365;
+border-left: 1px solid #727365;
+background: #a7a383;
+margin-left: 24px;
+margin-right: 24px;
+color: #fff;
+padding: 2px;
+}
+
+.headerBox address { text-align: center; }
+.headerBox p { font-family: "FontinSansBold"; font-size: 1.4em; text-align: center; margin-bottom: 0px; margin-top: .8em; }
+.headerBoxLeft { position: absolute; left: 2px; bottom: 0px; text-align: left; font-family: "Fontin"; font-size: 1.1em; }
+.headerBoxRight { position: absolute; right: 2px; bottom: 0px; text-align: right; font-family: "Fontin"; font-size: 1.1em; }
+
+.toptext {
+position: relative;
+border: 1px solid #000;
+border-top: 6px solid #000;
+background: #3B3B3B;
+width: auto;
+height: auto;
+color: /*#575757*/#fff;
+margin-left: 24px;
+margin-right: 24px;
+text-align: left;
+padding: 4px;
+margin-top: 0px;
+}
+
+.listing { position: absolute; top: 2px; right: 2px; color: #d7d5bf; }
+.toptext h3 { font-family: FontinSC; color: #E6E2D1/*#d7d5bf*/; margin: 8px; margin-left: 2px; font-weight: normal; font-size: 1.4em; display: block;}
+/*.toptext h3.center { font-family: "FontinSC"; color: #d7d5bf; text-align: center; margin-top: 0px; margin-bottom: 0px; padding: 0px;}*/
+.toptext h4 { inherit: none; padding: 0px; font-family: FontinSC; text-align: left; margin: 0px; margin-bottom: 4px; color: /*#d7d5bf*/#E6E2D1; font-size: 1.1em; font-weight: normal; }
+.toptext p { margin-top: 0px; }
+.toptext ul { padding: 0px; margin: 0px; margin-left: 18px; }
+.insideDescription { position: relative; top: 0px; left: 0px; width: auto; height: auto; }
+.insideStatsLeft { float: left; top: 0px; left: 0px; width: 361px; height: auto; margin-bottom: 6px; }
+.insideStatsLeft ul { margin-left: 18px; }
+.insideStatsRight { float: right; width: 361px; height: auto; margin-bottom: 6px; }
+.insideStatsRight2 { float: right; right: 0px; margin-left: 361px; width: 361px; height: auto; margin-bottom: 6px; }
+.insideClear { width: auto; height: 0px; clear: both; }
+
+.content {
+position: relative;
+height: auto;
+width: auto;
+margin: auto;
+background: #fff;
+text-align: center;
+margin-left: 24px;
+margin-right: 24px;
+padding-bottom: 20px;
+margin-top: 20px;
+}
+
+.pictureContainer { position: relative; background: #fff; margin: auto; width: auto; height: auto; text-align: center; margin-bottom: 20px;}
+.content h3 { font-family: Fontin; color: #E6E2D1; margin: 8px; margin-left: 0px; text-align: left; font-weight: normal; }
+.content h4 { padding: 0px; font-family: "FontinSC"; text-align: left; margin: 0px; color: #3B3B3B; border-top: 1px solid #d7d5bf; padding-top: 10px; padding-bottom: 6px; font-weight: normal; font-size: 1.2em;}
+.content a { color: #000; }
+.content a:hover { color: #3b3b3b; }
+.content img { border: 14px solid #eaeaea; max-height: 396px; max-width: 680px; }
+.content img.ad { border: 0px; margin-bottom: 20px; }
+.content img.thumb { inherit: none; border: 6px solid #eaeaea; height: 100px; vertical-align: middle; margin: auto;}
+.content p { position: absolute; bottom: 40px; background: #000; opacity: 0.7; padding: 2px; color: #fff; margin: auto; margin-bottom: 0px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);}
+.content p.number { inherit: none; position: absolute; top: 14px; background: #000; color: #fff; opacity: 0.70; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=700)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); height: 1em; width: auto; margin: 0px;  border: 4px solid #000; border-radius: 0px 0px 4px 0px; -moz-border-radius-bottomright: 4px; -webkit-border-radius-bottomright: 4px; }
+.redbold { color: red; font-weight: bold; margin-left: 4px;}
+
+.footer {
+position: relative;
+background: #D0D1B8;
+height: 18px;
+width: 780px;
+margin: auto;
+margin-bottom: 6px;
+}
+
+.legalese { width: 780px; position: relative; margin: /*0px*/auto; padding: 0px; font-size: .8em; margin-bottom: 10px; }
+.legalese a { color: #000; }
+.legalese a:hover { color: #3b3b3b; }
+
+#AgentDiv { inherit: none; border: 1px solid #000; background: #222; display: block; color: #fff; padding: 4px; margin: auto; margin-bottom: 20px; text-align: left; width: 696px; height: auto; }
+#AgentDiv h4 { font-family: "FontinSC"; margin: 0px; padding: 0px; text-align: left; color: #E6E2D1; margin-bottom: 4px; font-weight: normal; font-size: 1em;}
+#AgentDiv img { inherit: none; vertical-align: top; border: 1px solid #000; float: left; width: 60px; height: 60px; }
+#AgentDiv p#leftwpic { float: left; margin: 0px; padding: 0px; margin-left: 8px; width: 280px; }
+#AgentDiv p#leftnopic { float: left; margin: 0px; padding: 0px; margin-left: 8px; width: 340px; }
+#AgentDiv p#right { float: left; margin: 0px; padding: 0px; }
+#AgentDiv a { color: #d7d5bf; text-decoration: none; }
+#AgentDiv a:hover { color: #fff; text-decoration: underline; }
